@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #242424;
+    background-color: whitesmoke;
+
+}
+
+.headerPortion {
+    display: flex;
+    background-color: #0055a4;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header {
+    background: #0055a4;
+    padding: 3px;
+
+}
+
+.header marquee {
+    font-size: 20px;
+    color: white;
+    width: 95%;
+}
+
+.logo {
+    height: 65px;
+    width: 150px;
+    float: left;
+}
+
+.done {
+
+    padding-top: 25px;
+    padding-left: -10px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.slider img {
+    width: 100%;
+}
+
+bg-color {
+    background: #f0f3fa;
+}
+
+.main-section {
+    width: 100%;
+    float: left;
+    padding: 25px 0px 0px;
+    padding-left: 70px;
+}
+
+.event {
+    width: 25%;
+    height: 50%;
+    margin-right: 1%;
+    float: left;
+    background: white;
+    padding: 20px;
+}
+
+.event i {
+    color: red;
+    font-size: 14px;
+    padding-top: -10px;
+}
+
+.event div {
+    padding: 10px;
+}
+
+.event .headings {
+    padding: 10px;
+    color: white;
+    background: #0055a4;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.event ul li {
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: armenian;
+}
+
+.ctag {
+    float: right;
+    height: 350;
+    width: 350;
+    display: flex;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #0055a4;
+}
+
+.subhead {
+    font-size: 18px;
+    color: red;
+    font-weight: 500;
+}
+
+.about-us div {
+    width: 45%;
+    float: left;
+    line-height: 30px;
+    font-size: 10px;
+}
+
+.about-us h4 {
+    font-size: 10px;
+    color: red;
+    font-weight: 500;
+}
+
+.about-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    line-height: 23px;
+}
+
+.about-us img {
+    width: 50%;
+    float: left;
+    padding-top: 65px;
+}
+
+.award p {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+.award img {
+    width: 100%;
+}
+
+.award b {
+    min-width: 115;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.awar h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.chairman img {
+    width: 100%;
+    float: left;
+    margin-right: 70px;
+align-items: center;
+
+
+}
+
+.chairman h2 {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.testimonials {
+    width: 30.5%;
+    height: 300px;
+    float: left;
+    margin-right: 2.5;
+    text-align: justify;
+}
+
+.testimonials-text {
+    background: #0055a40f;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: centre;
+    border: 1px solid #0055a4;
+    margin-right: 10px;
+    border-radius: 1%;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 8px grey;
+}
+
+.testimonials-detail {
+    float: left;
+    margin-top: 10px;
+}
+
+.testimonials-name {
+    margin-left: 10px;
+    float: left;
+}
+
+.testimonials-name h5 {
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.testimonials-img {
+    float: left;
+
+}
+
+.Ctag {
+    width: 400.8px;
+    height: 459.6px;
+    float: right;
+    padding-right: 53px;
+}
+
+.chairmanBox {
+    height: 300px;
+    width: 300px;
+    overflow-wrap: break-word;
+    margin-left: 8%;
+}
+
+.chairmanImages {
+    height: 60%;
+    width: 60% !important;
+    border-radius: 50%;
+    margin-left: 10%;
+    border: 1px solid black;
+    transition: 1s ease;
+}
+
+.chairmanImages:hover {
+    transform: scale(1.1);
+    z-index: 5;
+    transition: 1s ease;
+}
+
+.chairmanHeader {
+    font-weight: 500;
+    color: #222;
+    letter-spacing: 1px;
+}
